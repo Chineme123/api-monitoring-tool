@@ -1,0 +1,60 @@
+.page-container{
+  display: flex;
+}
+
+.dashboard-grid{
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+}
+
+.dashboard-grid-item{
+    border: 0.5px dashed rgba(255, 255, 255, 0.2);
+}
+
+.charts-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.charts-container div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logs-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.logs-container h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.endpoint-tabs{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #ff0; */
+}
+
+.tabs-list{
+    /* border: 1px solid #333; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+}
+
+
+

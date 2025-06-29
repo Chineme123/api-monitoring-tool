@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router';
-import Dashboard from './Dashboard.jsx';
+import Dashboard from './Dashboard.jsx'
 import ManualCheck from './ManualCheck.jsx';
 import Endpoints from './Endpoints.jsx';
 import EndpointPage from './EndpointPage.jsx';

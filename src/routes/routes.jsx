@@ -1,9 +1,9 @@
 import { createBrowserRouter } from 'react-router';
-import Dashboard from './dashboard';
-import ManualCheck from './ManualCheck';
-import Endpoints from './Endpoints';
-import EndpointPage from './EndpointPage';
-import Settings from './Settings';
+import Dashboard from './Dashboard.jsx';
+import ManualCheck from './ManualCheck.jsx';
+import Endpoints from './Endpoints.jsx';
+import EndpointPage from './EndpointPage.jsx';
+import Settings from './Settings.jsx';
 
 export const router = createBrowserRouter([
   {

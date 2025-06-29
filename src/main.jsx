@@ -1,6 +1,6 @@
 import { Provider } from "./components/ui/provider";
 import { RouterProvider } from "react-router";
-import { router } from "./routes/routes";
+import { router } from "./routes/routes.jsx";
 import "./index.css";
 
 import React from "react";
